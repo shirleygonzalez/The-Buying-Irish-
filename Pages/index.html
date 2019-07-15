@@ -3,35 +3,42 @@
     <!--  This does not appear on the page      -->
     <head>
 
-        <title>Page Title</title>
-         <link rel="stylesheet" href="style.css">
+        <title>Login</title>
+         <link rel="stylesheet"type="text/css" href="../CSS/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
 
     </head>
 <!--  The head ends here and code after this appears on the page-->
 <!--   Header with logo for login-->
-    <body>
-        <a href="../Pages/TheBuyingIrishBranch.html"> <h1>The Buying Irish </h1></a>
-            
-            <h1 id="school"> Notre Dame</h1>
-        <div id="logo">
-            <img src="../Images/Irish.png">
+    <body class="body__background--color">
+         <div class="navbar">
+             <a href="../Pages/TheBuyingIrishBranch.html" style="color: white">Home</a>
+             <a href="../Pages/Selling-page.html"style="color: white">Sell</a>
+             <a href="../Pages/index.html"style="color: white">Login</a>
         </div>
-<!-- This form is for the users to interact and so the owners are able to identify them    -->
-<div class="questions">
-     <h2>Let's start with your Name</h2>
-    <input id="name" placeholder="Enter Your Name Here">
-    <h2>What dorm do you live in ?</h2>
-    <input id="name" placeholder="Dorm Name Here">
-    <h2>What is your ND ID number ?</h2>
-    <input id="name" placeholder="ND ID # Here">
-    <h2>ND Password </h2>
-    <input id="name" placeholder="Password Here">       
+    <div class="row">
+            <img class="mascot__img--size" src="../Images/Irish.png">
+      
+            <img class="logo__img--size" src="../Images/Notre_Dame_Fighting_Irish_logo.png">
+        </div>
+<!-- This form
+is for the users to interact and so the owners are able to identify them    -->
+<div class="container" >
+     <h2 class="questions__font--color">Let's start with your Name</h2>
+    <input class="input" placeholder="Enter Your Name Here">
+    <h2 class="questions__font--color">What dorm do you live in ?</h2>
+    <input class="input" placeholder="Dorm Name Here">
+    <h2 class="questions__font--color">What is your ND ID number ?</h2>
+    <input class="input" placeholder="ND ID # Here">
+    <h2 class="questions__font--color">ND Password </h2>
+    <input class="input" placeholder="Password Here">       
 </div>
 
 <div>
 <!-- This button submits the user form   -->
-    <button>Submit</button>
+    <button class="submit__button--css">Submit</button>
 </div>
 
         
