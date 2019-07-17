@@ -1,0 +1,26 @@
+/* This navbar using the flex model. Below a border with color is added to the three elements of "Home, Selling, Login." **/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    border: 10px solid navy;
+    background-color:;   
+}
+/* Below, this centers on the web page the title "Selling Page of the Irish" **/
+.header-container {
+    text-align: center
+}
+/* This centers everything inside the border where the <p> element as well as the form for sellers to submit their item. **/
+.container1 {
+    text-align: center  
+}
+.box1 {
+   border: 10px solid navy  
+}
+/* The following chooses the background color and the font. **/
+body{    
+    background-image: linear-gradient( #ffc400, #fff39c );
+    font-family: 'Quicksand', sans-serif
+}

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-/*This changes the color of the fonts*/
+
 .questions__font--color{
     color:#FEE136;
     text-align: center;
@@ -59,16 +58,3 @@
    justify-content: space-around;
 }
 
-
-
-
-=======
-body {background-color: darkblue;}
-
-img {
-    width: 100px;
-    height: 100px;
-    
-
-    
->>>>>>> cb0779d2e63eb815090711da4e36820189bff442
