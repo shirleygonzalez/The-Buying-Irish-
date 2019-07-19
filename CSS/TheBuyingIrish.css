@@ -1,0 +1,39 @@
+/* Background color **/
+body{
+    background-image: linear-gradient( #1CF071, #1D6C3D ); 
+
+}
+/* font settings **/
+.font__style--color{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+/* Image settings **/
+.image {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:20%;
+}
+/* caption for search bar **/
+.name{
+    margin: auto;
+    display: flex;
+    padding: 12px 20px;
+}
+/* This designs the navigation bar. **/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    border: 10px solid navy;
+    background-color:;
+}
+button{
+    display: flex;
+    justify-content: center;
