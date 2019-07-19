@@ -1,0 +1,61 @@
+
+/*This changes the color of the fonts*/
+.questions__font--color{
+    color:#FEE136;
+    text-align: center;
+    
+}
+/*This changes the color of the background*/
+.body__background--color{
+    background-image: linear-gradient( #1a1aff,#9999ff );
+}
+/*This changes the mascot image*/
+.mascot__img--size{
+    width:25%;
+    height: 25%;
+    opacity: .75;
+}
+/*This adds style to the button*/
+.submit__button--css{
+    background-color: #4CAF50;
+    color: white;
+    margin: 35px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    
+}
+/*This changes the position of the input bars*/
+.input{
+    margin:auto;
+    display:flex;
+    justify-content: center;   
+}
+
+/*This changes the style of the logo picture*/
+.logo__img--size{
+    width:25%;
+    height: 25%;
+    opacity: .75;
+    
+}
+/*This adds style to the navigation bar*/
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:25px;
+    border: 5px solid white ;
+    background-color: 
+    }
+/*This postions the images */
+ .row{
+     display:flex;
+    flex-direction:row;
+   justify-content: space-around;
+}
+
