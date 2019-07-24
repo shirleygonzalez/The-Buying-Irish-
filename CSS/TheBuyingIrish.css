@@ -1,15 +1,27 @@
 /* Background color **/
 body{
-    background-image: linear-gradient( #1CF071, #1D6C3D ); 
+    background-color: white;
+/*    background-image: linear-gradient( #1CF071, #1D6C3D ); */
 
 }
 /* font settings **/
 .font__style--color{
-    color: white;
-    font-size: 50px;
+    color: #000033;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 44px;
+    text-decoration: underline;
     display: flex;
     justify-content: center;
 
+}
+.font__style--colormid{
+    color:white;
+    font-family: 'Patua One', cursive;
+     display: flex;
+    justify-content: center;
+    font-size:45px;
+
+    
 }
 /* Image settings **/
 .image {
@@ -31,9 +43,149 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 25px;
-    border: 10px solid navy;
-    background-color:;
+    background-color:white;
 }
+
+.mid_page{
+     background-image: linear-gradient( #1CF071, #1D6C3D );
+   
+}
+
+.nav_bar_logo{
+    display:flex;
+    justify-content: center;
+    width:30px;
+    
+}
+
+
 button{
     display: flex;
-    justify-content: center;
+    justify-content: center;        
+   
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 10vw);
+    grid-gap: 10px;
+    border: 15px white solid;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+.container {
+  position: relative; 
+  max-width: 900px; /* Maximum width */
+  margin: 25px auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 96%; /* Full width */
+  padding: 15px; /* Some padding */
+
+}
+
+.clothes{
+    width: 67px;
+  float: left;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.material-icons{
+    position: relative;
+    left: 25px;
+}
+
